@@ -1,0 +1,55 @@
+body{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    background-color: #EAF6F6;
+   
+
+}
+#calculator{
+    width:300px;
+    height:400px;
+    background-image: url(chimpu.png);
+    background-size: cover;
+    border-radius: 10%;
+
+}
+#display{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    height:20%;
+    margin-top: 10px;
+    color: rgb(12, 12, 12);
+    background-color: white;
+    margin-left: 11px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    
+}
+#keys{
+    margin-top: 40px;
+    margin-left: 4px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding:20px;
+}
+button{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color:rgb(239, 235, 230);
+    border-color: black;
+    color:rgb(28, 30, 30);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(236, 138, 138);
+}
+button:active{
+    background-color: rgb(138, 117, 117);
+}
